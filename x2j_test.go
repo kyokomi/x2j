@@ -8,7 +8,7 @@ import (
 )
 
 func TestConvert(t *testing.T) {
-	xFile, err := xlsx.OpenFile("./RogueGameMaster.xlsx")
+	xFile, err := xlsx.OpenFile("./example/RogueGameMaster.xlsx")
 	if err != nil {
 		t.Fatal(err)
 	}
